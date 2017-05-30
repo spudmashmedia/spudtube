@@ -1,0 +1,39 @@
+{
+  "name": "spudstream",
+  "version": "1.0.0",
+  "description": "media streaming service",
+  "main": "src/service.js",
+  "scripts": {
+    "test": "mocha 'src/**/*.spec.js'",
+    "start": "pm2 start ecosystem.config.js",
+    "stop": "pm2 kill"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spudmashmedia/spudstream.git"
+  },
+  "keywords": [
+    "api",
+    "stream"
+  ],
+  "author": "Spudmash Media Pty Ltd",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/spudmashmedia/spudstream/issues"
+  },
+  "homepage": "https://github.com/spudmashmedia/spudstream#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "bunyan": "^1.8.10",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "pm2": "^2.4.6",
+    "restify": "^4.3.0",
+    "restify-router": "^0.4.2"
+  },
+  "devDependencies": {
+    "chai": "^4.0.0",
+    "mocha": "^3.4.2",
+    "supertest": "^3.0.0"
+  }
+}
