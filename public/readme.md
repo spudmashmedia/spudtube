@@ -10,7 +10,7 @@ Web: built with NodeJS + Express + Handlebars
 file names should be
 [filename].mp4
 
-when viewing a video via the WEB (http://localhost:3000/spudtube), you pass in a query string parameter **v** 
+when viewing a video via the WEB (http://localhost:3000/spud.tube), you pass in a query string parameter **v** 
 
 where **v** is the filename.
 
@@ -23,5 +23,5 @@ if a video exists in folder:
 
 the url would be
 ```
-http://localhost:3000/spudtube?v=myvideo
+http://localhost:3000/spud.tube?v=myvideo
 ```
