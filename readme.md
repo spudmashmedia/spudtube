@@ -30,10 +30,9 @@ npm run start
 ```
 
 this should now start up 
-|Service|URL|
-|-|-|
-|WEB (this has the video player)|http://localhost:3000|
-|API (streaming service)|http://localhost:5000|
+
+WEB (this has the video player) http://localhost:3000/spud.tube
+API (streaming service) http://localhost:5000
 
 ### Viewing Media
 [TO FIX] currently, a query string token   ?v=[token] is used to map to a correlating video located in the public folder.
